@@ -65,6 +65,9 @@ class HoverSliderPlugin {
      * Shortcode
      *-----------------------------------*/
     public function render_shortcode($atts) {
+		  if (is_admin()) {
+        return ''; // or return '<p>Preview disabled in admin.</p>';
+    }
         $slides = get_option('hs_slides', []);
         $title  = get_option('hs_slider_title', 'My Slider');
         $font   = get_option('hs_slider_font', 'inherit');

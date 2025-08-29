@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Hover Slider WordPress
- * Description: Image trail hover slider (Codrops Demo 6 style) with media uploader, shortcode, font options, and drag-drop reordering. Use [hover_slider].
+ * Description: Image trail hover slider with media uploader, shortcode, font options, and drag-drop reordering. Use [hover_slider].
  * Version: 2.2
  * Author: WP DESIGN LAB
  */

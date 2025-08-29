@@ -1,0 +1,110 @@
+/* Hover Slider Admin Styles */
+
+#hs-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0;
+  padding: 10px;
+  border: 2px dashed #ccd0d4;
+  border-radius: 8px;
+  background: #f9f9f9;
+  min-height: 60px;
+}
+
+.hs-image-row {
+  position: relative;
+  width: 120px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background: #fff;
+  padding: 10px;
+  text-align: center;
+  cursor: grab;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+  transition: box-shadow 0.2s;
+}
+
+.hs-image-row:hover {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.hs-image-row img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.hs-image-row .hs-remove {
+  display: block;
+  width: 100%;
+  margin: 0;
+  font-size: 13px;
+  background: #dc3232;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  line-height: 1.4;
+  padding: 4px 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.hs-image-row .hs-remove:hover {
+  background: #b81c1c;
+}
+
+.hs-sortable-placeholder {
+  border: 2px dashed #0073aa;
+  background: #eaf6ff;
+  border-radius: 6px;
+  width: 120px;
+  height: 140px;
+}
+
+/* Add Images button */
+.hs-add.button {
+  margin-top: 10px;
+  background: #0073aa;
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.hs-add.button:hover {
+  background: #006799;
+  color: #fff;
+}
+
+/* Info notice */
+.wrap .notice-info {
+  border-left: 4px solid #0073aa;
+  background: #f1faff;
+  margin: 15px 0 25px;
+  padding: 12px 15px;
+}
+
+.wrap .notice-info code {
+  background: #eaf6ff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+/* Form inputs */
+.wrap input[type="text"] {
+  padding: 6px 10px;
+  border: 1px solid #ccd0d4;
+  border-radius: 4px;
+  min-width: 300px;
+}
+
+.wrap select {
+  padding: 6px 10px;
+  border: 1px solid #ccd0d4;
+  border-radius: 4px;
+  min-width: 220px;
+}
